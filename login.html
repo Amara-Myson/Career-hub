@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - DITS ACADEMY</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">DITS <span>ACADEMY</span></a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="index.html#courses">Courses</a>
+      <a href="index.html#paths">Career Paths</a>
+      <a href="jobs.html">Jobs</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="menu" id="menu">☰</div>
+  </div>
+</header>
+
+<!-- LOGIN SECTION -->
+<section class="login-section fade">
+  <div class="login-card">
+    <h2>Login to DITS Academy</h2>
+
+    <form id="loginForm">
+      <label>Email Address</label>
+      <input type="email" id="loginEmail" required>
+
+      <label>Password</label>
+      <input type="password" id="loginPassword" required>
+
+      <div class="remember-box">
+        <input type="checkbox" id="rememberMe">
+        <label for="rememberMe">Remember me</label>
+      </div>
+
+      <button type="submit" class="login-btn">Login</button>
+    </form>
+
+    <p class="login-note">Don't have an account? <a href="#">Register</a></p>
+
+    <p id="loginMsg" class="login-success">Login successful (demo only)</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> DITS ACADEMY — All rights reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

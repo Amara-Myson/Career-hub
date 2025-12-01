@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Details - DITS ACADEMY</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">DITS <span>ACADEMY</span></a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="career.html?id=software">Career Paths</a>
+      <a href="jobs.html">Jobs</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html" class="btn-login">Login</a>
+    </nav>
+    <div class="menu" id="menu">☰</div>
+  </div>
+</header>
+
+<!-- JOB DETAILS SECTION -->
+<section class="job-details-section fade">
+  <div class="container job-details-inner">
+
+    <div class="job-img-box">
+      <img id="jobImg" alt="">
+    </div>
+
+    <div class="job-text-box">
+      <h1 id="jobTitle"></h1>
+      <p class="job-company" id="jobCompany"></p>
+      <p class="job-location" id="jobLocation"></p>
+      <span class="job-type-badge" id="jobType"></span>
+
+      <h3>Description</h3>
+      <p id="jobDesc"></p>
+
+      <h3>Responsibilities</h3>
+      <ul id="jobResp"></ul>
+
+      <h3>Requirements</h3>
+      <ul id="jobReq"></ul>
+
+      <a href="#" class="apply-btn">Apply Now</a>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> DITS ACADEMY — All rights reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

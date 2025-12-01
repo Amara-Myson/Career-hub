@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Listings - DITS ACADEMY</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">DITS <span>ACADEMY</span></a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="index.html#courses">Courses</a>
+      <a href="index.html#paths">Career Paths</a>
+      <a href="jobs.html" class="active">Jobs</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="login.html" class="btn-login">Login</a>
+    </nav>
+    <div class="menu" id="menu">☰</div>
+  </div>
+</header>
+
+
+<!-- HERO SECTION -->
+<section class="jobs-hero fade">
+  <div class="container">
+    <h1>Explore Open Roles</h1>
+    <p>Find internships, remote jobs, full-time roles and exciting opportunities.</p>
+  </div>
+</section>
+
+
+<!-- SEARCH + FILTER -->
+<section class="job-search container fade">
+  <input type="text" id="jobSearch" placeholder="Search job title or company">
+
+  <div class="job-filters">
+    <button class="filter-btn active" data-type="all">All</button>
+    <button class="filter-btn" data-type="remote">Remote</button>
+    <button class="filter-btn" data-type="full-time">Full-Time</button>
+    <button class="filter-btn" data-type="internship">Internship</button>
+    <button class="filter-btn" data-type="hybrid">Hybrid</button>
+  </div>
+</section>
+
+
+<!-- JOB LIST -->
+<section class="job-list container fade" id="jobList">
+  <!-- Dynamic job cards will load here -->
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© <span id="year"></span> DITS ACADEMY — All rights reserved</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

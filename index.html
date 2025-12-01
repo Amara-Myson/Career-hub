@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DITS ACADEMY</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">DITS <span>ACADEMY</span></a>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#paths">Career Paths</a>
+      <a href="#courses">Courses</a>
+      <a href="jobs.html">Jobs</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="login.html">Login</a>
+    </nav>
+
+    <div class="menu" id="menu">☰</div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container hero-inner fade">
+    <div class="hero-left">
+      <h1>Start Your Tech Career with Confidence</h1>
+      <p>Become job-ready through project-based learning, mentorship, and a supportive community.</p>
+
+      <div class="hero-btns">
+        <a href="#courses" class="btn primary">Explore Courses</a>
+        <a href="course.html?id=frontend" class="btn ghost">View a Course</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="https://cdn.pixabay.com/photo/2016/11/08/05/10/students-1807505_1280.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+<!-- PATHS -->
+<section class="paths" id="paths">
+  <div class="container fade">
+    <h2 class="section-title">Popular Career Paths</h2>
+
+    <div class="grid paths-grid">
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2019/12/12/11/40/engineer-4690505_1280.jpg">
+        <h3>Software Engineering</h3>
+        <p>Learn programming, web apps and modern tools.</p>
+        <a href="career.html?id=software" class="small-link">Explore →</a>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2017/10/29/14/49/data-2899903_1280.jpg">
+        <h3>Data Analyst</h3>
+        <p>Learn analysis, visualization and ML basics.</p>
+        <a href="career.html?id=data" class="small-link">Explore →</a>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2019/07/14/16/27/pen-4337521_1280.jpg">
+        <h3>Product Design</h3>
+        <p>Create beautiful, user-friendly interfaces.</p>
+        <a href="career.html?id=design" class="small-link">Explore →</a>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2018/02/15/18/29/devops-3155972_1280.jpg">
+        <h3>Cloud & DevOps Engineer</h3>
+        <p>Learn deployments, automations and cloud use.</p>
+        <a href="career.html?id=devops" class="small-link">Explore →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section class="courses" id="courses">
+  <div class="container fade">
+    <h2 class="section-title">Our Courses</h2>
+
+    <div class="grid courses-grid">
+      <div class="course-card">
+        <img src="https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_1280.jpg">
+        <h3>Frontend Development</h3>
+        <p>Beginner • 8 Weeks</p>
+        <a class="btn small" href="course.html?id=frontend">Learn More</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://cdn.pixabay.com/photo/2015/01/09/11/11/office-594132_1280.jpg">
+        <h3>Backend Development</h3>
+        <p>Intermediate • 10 Weeks</p>
+        <a class="btn small" href="course.html?id=backend">Learn More</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://cdn.pixabay.com/photo/2015/05/28/14/38/ux-787980_1280.jpg">
+        <h3>UI / UX Design</h3>
+        <p>Beginner • 6 Weeks</p>
+        <a class="btn small" href="course.html?id=uiux">Learn More</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://cdn.pixabay.com/photo/2017/11/19/23/56/hacking-2964100_1280.jpg">
+        <h3>Cybersecurity</h3>
+        <p>Intermediate • 12 Weeks</p>
+        <a class="btn small" href="course.html?id=cybersecurity">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container about-inner fade">
+    <div class="about-img">
+      <img src="https://cdn.pixabay.com/photo/2015/07/17/22/44/student-849828_1280.jpg">
+    </div>
+
+    <div class="about-text">
+      <h2>About DITS Academy</h2>
+      <p>DITS Academy trains world-class tech talent through hands-on learning, mentorship and real projects.</p>
+
+      <div class="stats">
+        <div class="stats-bg"><strong>10,000+</strong> Students</div>
+        <div class="stats-bg"><strong>40+</strong> Mentors</div>
+        <div class="stats-bg"><strong>90%</strong> Job Success</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container fade">
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="contact-grid">
+      <form id="contactForm" class="contact-form">
+        <label>Name
+          <input type="text" id="name" required>
+        </label>
+
+        <label>Email
+          <input type="email" id="email" required>
+        </label>
+
+        <label>Message
+          <textarea id="message" required></textarea>
+        </label>
+
+        <button class="btn primary" type="submit">Send</button>
+        <p id="formMsg" class="form-msg">Message sent! (Demo)</p>
+      </form>
+
+      <div class="contact-info">
+        <p> <span>Email</span>: contact@ditsacademy.com</p>
+        <p> <span>Location</span>: Km 25, Suite 14, DDS Shopping Mall, Airport Road, Port Harcourt, Nigeria</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© <span id="year"></span> DITS ACADEMY. All rights reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
