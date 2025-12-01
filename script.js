@@ -12,7 +12,6 @@ if(menu){
   };
 }
 
-/* ===== FOOTER YEAR ===== */
 document.getElementById("year").textContent = new Date().getFullYear();
 
 /* ===== FADE-IN ANIMATION ===== */
@@ -29,7 +28,6 @@ function reveal(){
 window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
 
-/* ===== CONTACT FORM (demo only) ===== */
 const form = document.getElementById("contactForm");
 if(form){
   form.onsubmit = e =>{
@@ -135,13 +133,6 @@ if(window.location.pathname.includes("career.html")){
   document.getElementById("careerImg").src = c.img;
 }
 
-/* ======================
-   JOB LISTINGS
-   ====================== */
-/* const menubtn = document.getElementById("menuIcon");
-const navbtn = document.getElementById("navMenu"); */
-
-
 if (window.location.pathname.includes("jobs.html")) {
 
   const jobs = [
@@ -236,9 +227,7 @@ if (window.location.pathname.includes("jobs.html")) {
   );
 }
 
-/* ======================
-   JOB DETAILS PAGE LOADER
-   ====================== */
+/* JOB DETAILS PAGE LOADER */
 
 if (window.location.href.includes("job-details")) {
 
@@ -370,9 +359,7 @@ if (window.location.href.includes("job-details")) {
   }
 }
 
-/* ======================
-   LOGIN FORM (demo only)
-   ====================== */
+/* LOGIN FORM (demo only) */
 
 if (window.location.href.includes("login")) {
 
@@ -383,4 +370,5 @@ if (window.location.href.includes("login")) {
     document.getElementById("loginMsg").style.display = "block";
     loginForm.reset();
   };
+
 }
